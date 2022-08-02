@@ -1,46 +1,46 @@
 // Page 1
 
 # List of Category
-> http://localhost:9860/category
+> https://bb-api-code.herokuapp.com/category
 
 # List of Location
-> http://localhost:9860/location
+> https://bb-api-code.herokuapp.com/location
 
 # List of Quick Search
-> http://localhost:9860/products
+> https://bb-api-code.herokuapp.com/products
 
 
 // Page 2
    Listing Page
 
 # Products wrt Category
-> http://localhost:9860/products/1
+> https://bb-api-code.herokuapp.com/products/7
 
 
 // Page 3
 
 # Details of the Product wrt ObjectId
->http://localhost:9860/details/62e384efb605e3054cfe3b6f
+> https://bb-api-code.herokuapp.com/details/62e384efb605e3054cfe3b6f
 
 
 // Page 4
 
 # Order Details
-> http://localhost:9860/orders
+> https://bb-api-code.herokuapp.com/orders
 
 # Place Order
-> (POST)http://localhost:9860/placeorder
+> (POST)https://bb-api-code.herokuapp.com/placeorder
 
 // Page 5
 
 # List of Order Placed
-> http://localhost:9860/orders
+> https://bb-api-code.herokuapp.com/orders
 
 # List of Order wrt Email
-> http://localhost:9860/orders?email=riya@gmail.com
+> https://bb-api-code.herokuapp.com/orders?email=riya@gmail.com
 
 # Update Order Details with Payment
-> (put) http://localhost:9860/updateOrder/2
+> (put) https://bb-api-code.herokuapp.com/updateOrder/2
 {
 	"status":"TXN_SUCCESS",
 	"bank_name":"SBI",
@@ -48,4 +48,4 @@
 }
 
 # Delete Order
-> (delete) http://localhost:9860/deleteOrder/62cacbbd1b948d5c06d7fee0
+> (delete) https://bb-api-code.herokuapp.com/deleteOrder/62cacbbd1b948d5c06d7fee0
